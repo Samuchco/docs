@@ -64,7 +64,7 @@ In this example, the eventualBG (170) is much higher than target (90). As you ca
 
 ![Setting a zero temp after SMB's](../Images/pill_example_SMB_low_temp.png)
 
-In this example, you can see that after a meal (40g carb with a 5u meal bolus, and a subsequent 10g with 1.2u bolus), BG was rising more than expected and SMB's were issued. At the point in time the logs/pill was analyzed, it showed that BG was 179 and it set a zero temp basal rate for 90 minutes. **Why?** There were still ~15 grams of carb on board, but deviations were much higher than what was expected to happen at this point in time (Dev: 45, BG: -4.5, meaning the BG was expected to be dropping but was still rising). But, given the time period in which insulin can take effect, the current amount of IOB was such that most of the predBGs were below target. Therefore, the safe thing to do is to low temp at this point in time. 
+In this example, you can see that after a meal (40g carb with a 5u meal bolus, and a subsequent 10g with 1.2u bolus), BG was rising more than expected and SMB's were issued. At the point in time the logs/pill was analyzed, it showed that BG was 179 and it set a zero temp basal rate for 90 minutes. **Why?** There were still ~15 grams of carb on board, but deviations were much higher than what was expected to happen at this point in time (Dev: 45, BGI: -4.5, meaning the BG was expected to be dropping but was still rising). But, given the time period in which insulin can take effect, the current amount of IOB was such that most of the predBGs were below target. Therefore, the safe thing to do is to low temp at this point in time. 
 
 ## Understanding the purple prediction lines
 
