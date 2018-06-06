@@ -19,6 +19,7 @@ network={
   psk="MyWirelessPassword"
 }
 ```
+If you copy and paste the above configuration onto the boot drive and the Pi is not recognizing the wifi, you might have to take out the SD card from the Pi and reconnect to the computer. On the boot drive, open the wpa_supplicant.conf file and manually delete the quotation marks that you copied originally and replace them with new quotation marks. Save the file and continue.
 
 You will need to replace xx after country with the correct ISO3166-1 Alpha-2 country code for your country (such as US, UK, DE, etc) - otherwise wifi will remain disabled on the Pi.
 
