@@ -63,4 +63,11 @@ You'll be prompted to set a password.  You'll want to change it to something per
 
 The script will then continue to run awhile longer (~10+ minutes) before asking you to press `enter` to run oref0-setup.
 
+If you get disconnected from the rig in the middle of the installation process, re-connect to the rig via ssh and re-type the last command that you entered before it disconneted. To find out the last command you enterd, you can type `history 10` and will return the last 10 commands. The last one will probably  be
+```
+sudo bash
+curl -s https://raw.githubusercontent.com/openaps/oref0/dev/bin/openaps-install.sh > /tmp/openaps-install.sh && bash /tmp/openaps-install.sh
+```
+and re-install
+
 Return to the [OpenAPS Install page](http://openaps.readthedocs.io/en/latest/docs/Build%20Your%20Rig/OpenAPS-install.html#step-4-setup-script) to complete oref0-setup.
